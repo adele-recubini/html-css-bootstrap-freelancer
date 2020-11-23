@@ -1,0 +1,48 @@
+[class*="col-"] {
+  border: 1px solid black;
+  /* background: pink; */
+  height: 300px;
+  text-align: left;
+}
+
+.navbar{
+  height: 80px;
+  background-color: red;
+}
+
+.jumbatron-style{
+  background-color: lightgreen;
+  text-align: center;
+  display: inline-block;
+  height: 400px;
+  padding: 20px 0;
+
+}
+.avatar{
+  height: 150px;
+}
+ul li{
+display: inline-block;
+color: white;
+padding: 0 10px;
+
+}
+h2{
+  color: white;
+}
+
+.i:after {
+  content: '';
+  display: inherit;
+  width: 25%;
+  border-bottom: 1px solid black;
+  margin: 20px auto;
+}
+
+.portfolio{
+  text-align: center;
+  height: 100px;
+}
+.immagini{
+  height: 250px;
+}
