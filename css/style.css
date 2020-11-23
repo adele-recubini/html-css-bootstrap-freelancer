@@ -91,6 +91,10 @@ color: white;
 .about{
   background-color:#1ABC9C;
 }
+
+.bg-color2{
+  background-color: #3A546D;
+}
 p{
   text-align: center;
   color: white;
@@ -100,8 +104,24 @@ p{
 .footer{
   height: 200px;
   background-color: #3A546D;
-  margin-top: 20px;
+  margin-top: 30px;
+  text-align: center;
 }
 .footer>ul>li{
   display:inline-block;
+  padding: 10px 15px;
+  color: white;
+}
+.footer>ul{
+  padding-left:0;
+}
+
+.send{
+  margin-bottom: 10px;
+  background-color:#1ABC9C;
+}
+
+
+
+
 }
