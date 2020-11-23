@@ -10,7 +10,7 @@
   background-color:red;
 }
 
-.jumbatron-style{
+.jumbotron-style{
   background-color: #1ABC9C;
   text-align: center;
   display: inline-block;
@@ -29,6 +29,7 @@ padding: 0 10px;
 .lista, .i{
   color:white;
 }
+
 h2{
   color: white;
 }
@@ -47,8 +48,25 @@ h2{
   border-bottom: 2px solid black;
   margin-bottom:3px;
 }
+.white::after {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  border-bottom: 2px solid white;
+  margin-bottom:3px;
+}
+.white::before {
+  content: '';
+  display: inline-block;
+  width: 30px;
+  border-bottom: 2px solid white;
+  margin-bottom:3px;
+}
 .stella{
   height: 30px;
+}
+.white{
+color: white;
 }
 
 
