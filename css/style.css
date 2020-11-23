@@ -21,28 +21,42 @@
 .avatar{
   height: 150px;
 }
-ul li{
+.lista>ul>li{
 display: inline-block;
 color: white;
 padding: 0 10px;
-
 }
 h2{
   color: white;
 }
 
-.i:after {
+i::after {
   content: '';
   display: inherit;
-  width: 25%;
-  border-bottom: 1px solid black;
-  margin: 20px auto;
+  width: 30px;
+  border-bottom: 2px solid white;
+}
+i::before {
+  content: '';
+  display: inherit;
+  width: 30px;
+  border-bottom: 2px solid white;
 }
 
-.portfolio{
+.portfolio, .about, .download{
   text-align: center;
   height: 100px;
 }
+.what{
+  height: 200px;
+  background-color: lightgreen;
+}
+.what, #text{
+color: white;
+}
 .immagini{
   height: 250px;
+}
+.about{
+  background-color: lightgreen;
 }
