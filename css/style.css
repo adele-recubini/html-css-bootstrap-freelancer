@@ -26,6 +26,9 @@ display: inline-block;
 color: white;
 padding: 0 10px;
 }
+.lista, .i{
+  color:white;
+}
 h2{
   color: white;
 }
