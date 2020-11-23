@@ -1,5 +1,5 @@
 [class*="col-"] {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* background: pink; */
   height: 300px;
   text-align: left;
@@ -7,11 +7,11 @@
 
 .navbar{
   height: 80px;
-  background-color: red;
+  background-color:red;
 }
 
 .jumbatron-style{
-  background-color: lightgreen;
+  background-color: #1ABC9C;
   text-align: center;
   display: inline-block;
   height: 400px;
@@ -49,7 +49,7 @@ h2{
 }
 .what{
   height: 200px;
-  background-color: lightgreen;
+  background-color:#1ABC9C;
 }
 .what, #text{
 color: white;
@@ -58,5 +58,19 @@ color: white;
   height: 250px;
 }
 .about{
-  background-color: lightgreen;
+  background-color:#1ABC9C;
+}
+p{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top:20px;
+}
+.footer{
+  height: 200px;
+  background-color: #3A546D;
+  margin-top: 20px;
+}
+.footer>ul>li{
+  display:inline-block;
 }
