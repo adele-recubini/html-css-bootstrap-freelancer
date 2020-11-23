@@ -35,12 +35,17 @@ h2{
   display: inline-block;
   width: 30px;
   border-bottom: 2px solid black;
+  margin-bottom:3px;
 }
 .stella::before {
   content: '';
   display: inline-block;
   width: 30px;
   border-bottom: 2px solid black;
+  margin-bottom:3px;
+}
+.stella{
+  height: 30px;
 }
 
 
