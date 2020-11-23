@@ -30,13 +30,13 @@ h2{
   color: white;
 }
 
-i::after {
+.stella::after {
   content: '';
   display: inherit;
   width: 30px;
   border-bottom: 2px solid white;
 }
-i::before {
+.stella::before {
   content: '';
   display: inherit;
   width: 30px;
