@@ -103,6 +103,7 @@ color: white;
 .portfolio, .about, .download{
   text-align: center;
   height: 100px;
+
 }
 .what{
   height: 200px;
@@ -158,6 +159,7 @@ p{
   height: 200px;
   background-color: #3A546D;
   text-align: center;
+  margin-top:30px;
 }
 .footer>ul>li{
   display:inline-block;
