@@ -14,12 +14,34 @@
  </head>
   <body>
     <div class="container-fluid">
-       <!-- inizio nav bar -->
-      <div class="row">
-        <div class=" navbar col-xs-12"></div>
-      </div>
-      <!-- fine nav bar -->
 
+       <!-- inizio nav bar -->
+      <!-- Static navbar -->
+        <nav class="navbar navbar-default bl-navbar">
+         <div class="container">
+           <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+             <a class="navbar-brand text-uppercase" href="#">start bootstrap</a>
+           </div>
+           <div id="navbar" class="navbar-collapse collapse">
+             <ul class="nav navbar-nav">
+             </ul>
+             <ul class="nav navbar-nav navbar-right text-uppercase">
+               <li class="active"><a href="#">portfolio<span class="sr-only">(current)</span></a></li>
+               <li><a href="#">about</a></li>
+               <li><a href="#">contact</a></li>
+             </ul>
+
+           </div><!--/.nav-collapse -->
+         </div><!--/.container-fluid -->
+        </nav>
+
+    <!-- fine nav -->
       <div class="row">
         <div class="jumbotron col-xs-12 jumbotron-style">
           <img class="avatar"src="img/avatar.svg" alt="">
@@ -127,7 +149,7 @@
             </form>
              </div>
           <button class="send" type="button" class="btn btn-success">send</button>
-        
+
         </div>
         </div>
          <!-- footer -->

@@ -4,11 +4,37 @@
   height: 300px;
   text-align: left;
 }
-
-.navbar{
-  height: 80px;
-  background-color:red;
+.navbar-default, .bl-navbar{
+ background-color:#3A546D;
 }
+
+.navbar-default .navbar-nav>.active>a{
+background-color:#3A546D;
+color:white;
+}
+.bl-navbar {
+  background-color: #3A546D;
+  color: #fff;
+}
+
+.bl-navbar .navbar-brand, .bl-navbar .navbar-nav>li>a {
+  color: #fff;
+}
+
+.bl-navbar .navbar-brand {
+  font-size:24px;
+  font-weight: bolder;
+}
+
+.bl-navbar .navbar-nav>li>a {
+  font-weight: bolder;
+}
+
+.bl-navbar .navbar-brand:hover, .bl-navbar .navbar-nav>li>a:hover {
+  color: #1ABC9C;
+}
+
+
 
 .jumbotron-style{
   background-color: #1ABC9C;
@@ -143,3 +169,6 @@ p{
   background-color:#1ABC9C;
   margin-left: 100px;
 }
+
+
+/* media query */
