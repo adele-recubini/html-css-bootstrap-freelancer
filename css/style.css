@@ -4,6 +4,11 @@
   height: 300px;
   text-align: left;
 }
+.navbar{
+  margin-bottom: 0;
+  border:none;
+  border-radius:0;
+}
 .navbar-default, .bl-navbar{
  background-color:#3A546D;
 }
@@ -33,7 +38,6 @@ color:white;
 .bl-navbar .navbar-brand:hover, .bl-navbar .navbar-nav>li>a:hover {
   color: #1ABC9C;
 }
-
 
 
 .jumbotron-style{
@@ -131,8 +135,8 @@ p{
 /* form  */
 
 .form{
-  width: 400px;
-  margin-left: 100px;
+  width: 300px;
+  padding-left: 100px;
 }
 
 .bl-form ::placeholder{
