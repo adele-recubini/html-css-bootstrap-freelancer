@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
       <title></title>
-  </head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap e my file css -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
@@ -12,7 +11,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-
+ </head>
   <body>
     <div class="container-fluid">
        <!-- inizio nav bar -->
@@ -112,20 +111,26 @@
           </div>
 
           <div class="row">
-          <ul class="list-group">
-            <li class="list-group-item"><input type="text" id="fname" name="fname" value="name"><br></li>
-            <li class="list-group-item"><input type="text" id="fname" name="fname" value="email adress"><br></li>
-            <li class="list-group-item"><input type="text" id="fname" name="fname" value="phone number"><br></li>
-            <li class="list-group-item"><input type="text" id="fname" name="fname" value="message"><br></li>
-          </ul><br><br><br>
-          <hr>
-            <button class="send" type="button" class="btn btn-success">send</button>
-         </div>
+            <div class="col-xs-12 col-sm-12">
+            <form class="form">
+              <div class="form-group bl-form">
+                <input type="name" class="form-control" id="exampleInputName" placeholder="name">
+              </div>
+              <div class="form-group bl-form">
+                <input type="email" class="form-control" id="exampleInputmail" placeholder="email">
+              </div>
+
+              <div class="form-group bl-form">
+               <input type="phone-number" class="form-control" id="exampleInputphone-number" placeholder="phone-number">
+              </div>
+              <textarea class="form-control" rows="6">textarea</textarea>
+            </form>
+             </div>
+          <button class="send" type="button" class="btn btn-success">send</button>
+        
+        </div>
         </div>
          <!-- footer -->
-
-
-
         <div class="row">
            <div class="col-xs-12">
              <div class="row">

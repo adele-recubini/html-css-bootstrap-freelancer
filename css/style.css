@@ -101,10 +101,32 @@ p{
   font-size: 20px;
   margin-top:20px;
 }
+
+/* form  */
+
+.form{
+  width: 400px;
+  margin-left: 100px;
+}
+
+.bl-form ::placeholder{
+  color:black;
+}
+.form-control{
+  border:none;
+  box-shadow: none;
+}
+.form-control{
+  border-bottom: 1px solid grey;
+  border-radius: 0px;
+
+}
+/* end form */
+
+
 .footer{
   height: 200px;
   background-color: #3A546D;
-  margin-top: 30px;
   text-align: center;
 }
 .footer>ul>li{
@@ -119,9 +141,5 @@ p{
 .send{
   margin-bottom: 10px;
   background-color:#1ABC9C;
-}
-
-
-
-
+  margin-left: 100px;
 }
