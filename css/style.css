@@ -1,7 +1,7 @@
 [class*="col-"] {
   /* border: 1px solid black; */
   /* background: pink; */
-  height: 300px;
+  /* height: 300px; */
   text-align: left;
 }
 .navbar{
@@ -118,6 +118,7 @@ color: white;
 
 .immagini{
   height: 250px;
+  padding:10px 5px;
 }
 .about{
   background-color:#1ABC9C;
@@ -136,12 +137,12 @@ p{
 /* form  */
 
 .form{
-  width: 300px;
   padding-left: 100px;
 }
 
 .bl-form ::placeholder{
   color:black;
+  font-size: 15px;
 }
 .form-control{
   border:none;
@@ -154,12 +155,11 @@ p{
 }
 /* end form */
 
-
 .footer{
   height: 200px;
   background-color: #3A546D;
   text-align: center;
-  margin-top:30px;
+  /* margin-top:30px; */
 }
 .footer>ul>li{
   display:inline-block;
@@ -169,12 +169,16 @@ p{
 .footer>ul{
   padding-left:0;
 }
+.copyright{
+  text-align: center;
+  background-color:lightblue;
+  height: 100px;
+  margin-top: 0;
+}
 
 .send{
   margin-bottom: 10px;
   background-color:#1ABC9C;
   margin-left: 100px;
+  font-size: 20px;
 }
-
-
-/* media query */
